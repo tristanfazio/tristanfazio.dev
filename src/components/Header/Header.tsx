@@ -1,4 +1,5 @@
 import styles from "./Header.module.css"
+import {ThemeToggle} from "../Buttons/ThemeToggle";
 
 const Header = () => {
     return (
@@ -7,11 +8,21 @@ const Header = () => {
                 <image>logo</image>
             </div>
             <div className={styles.buttonsWrapper}>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <ul className={styles.navButtons}>
+                    <li>
+                        <span className={styles.navNumber}>1.</span><span>Projects</span>
+                    </li>
+                    <li>
+                        <span className={styles.navNumber}>2.</span><span>Skills</span>
+                    </li>
+                    <li>
+                        <span className={styles.navNumber}>3.</span><span>About</span>
+                    </li>
+                    <li>
+                        <span className={styles.navNumber}>4.</span><span>Contact</span>
+                    </li>
+                </ul>
+                <ThemeToggle/>
             </div>
         </div>
     )

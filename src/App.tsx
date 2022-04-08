@@ -1,7 +1,10 @@
 import './App.css'
 import {Header} from "./components/Header";
+import {LightMode} from "./themes/LightMode";
+import {useTheme} from "./hooks/useTheme";
 
 function App() {
+    useTheme(LightMode)
 
     return (
         <div className="App">

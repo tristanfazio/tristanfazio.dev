@@ -1,0 +1,70 @@
+.header {
+    width: 100%;
+    height: 72px;
+    background-color: var(--header-background-colour);
+    box-shadow: var(--header-border-shadow);
+
+    font-family: var(--font-text);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoWrapper {
+    margin: 16px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonsWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 16px;
+}
+
+.navButtons {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: var(--header-font-colour);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navButtons li {
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.navButtons li:nth-child(1) span:first-child {
+    color: var(--secondary-purple);
+}
+
+.navButtons li:nth-child(2) span:first-child {
+    color: var(--cool-blue);
+}
+
+.navButtons li:nth-child(3) span:first-child {
+    color: var(--error-orange);
+}
+
+.navButtons li:nth-child(4) span:first-child {
+    color: var(--alert-red);
+}
+
+.navNumber {
+    font-family: var(--font-numerical);
+}
