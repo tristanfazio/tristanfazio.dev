@@ -1,12 +1,13 @@
-import {Theme} from "../hooks/useTheme";
+import { Theme } from "../hooks/useTheme";
 
 export const LightMode: Theme = {
-    "page-background-colour": "var(--page-background-light)",
+	"page-background-colour": "var(--page-background-light)",
 
-    "header-background-colour": "var(--page-background-light)",
-    "header-border-shadow": "0px -4px 20px rgba(0, 0, 0, 0.25)",
-    "header-font-colour": "var(--font-body-light)",
+	"header-background-colour": "var(--page-background-light)",
+	"header-border-shadow": "0px -4px 20px rgba(0, 0, 0, 0.25)",
 
-    "toggle-border-colour": "var(--header-background-dark)",
-    "toggle-slider-colour": "var(--primary-green)",
+	"toggle-border-colour": "var(--header-background-dark)",
+	"toggle-slider-colour": "var(--primary-green)",
+
+	"font-colour": "var(--font-body-light)",
 };

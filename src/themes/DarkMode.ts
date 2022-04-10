@@ -1,10 +1,13 @@
-export const DarkMode = {
-    "page-background-colour": "var(--page-background-dark)",
+import { Theme } from "../hooks/useTheme";
 
-    "header-background-colour": "var(--header-background-dark)",
-    "header-border-shadow": "0",
-    "header-font-colour": "var(--font-body-dark)",
+export const DarkMode: Theme = {
+	"page-background-colour": "var(--page-background-dark)",
 
-    "toggle-border-colour": "var(--primary-green)",
-    "toggle-slider-colour": "#50546D",
+	"header-background-colour": "var(--header-background-dark)",
+	"header-border-shadow": "0",
+
+	"toggle-border-colour": "var(--primary-green)",
+	"toggle-slider-colour": "#50546D",
+
+	"font-colour": "var(--font-body-dark)",
 };

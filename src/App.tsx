@@ -1,19 +1,27 @@
-import './App.css'
-import {Header} from "./components/Header";
-import {LightMode} from "./themes/LightMode";
-import {useTheme} from "./hooks/useTheme";
+import "./App.css";
+import { Header } from "./components/Header";
+import { LightMode } from "./themes/LightMode";
+import { useTheme } from "./hooks/useTheme";
+import { Landing } from "./components/Landing";
+import { useState } from "react";
+import { ThemeContext } from "./context/context";
 
 function App() {
-    useTheme(LightMode)
+	const [theme, setTheme] = useState(LightMode);
+	useTheme(theme);
 
-    return (
-        <div className="App">
-            <Header/>
-            <p>Hello! my name is</p>
-            <h1>Tristan Fazio</h1>
-            <p>Full Stack Software Engineer </p>
-        </div>
-    )
+	return (
+		<ThemeContext.Provider value={{ theme, setTheme }}>
+			<div className="App">
+				<Header />
+				<Landing />
+				{/*<Projects/>*/}
+				{/*<Skills/>*/}
+				{/*<About/>*/}
+				{/*<Contact/>*/}
+			</div>
+		</ThemeContext.Provider>
+	);
 }
 
-export default App
+export default App;
