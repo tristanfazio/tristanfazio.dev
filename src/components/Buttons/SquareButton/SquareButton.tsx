@@ -11,7 +11,9 @@ function SquareButton(props: {
 	colour: string;
 }) {
 	const { theme } = useContext(ThemeContext);
-	useEffect(() => {}, [theme]);
+	useEffect(() => {
+		console.log(`theme changed to ${theme.var}`)
+	}, [theme]);
 	return (
 		<>
 			{theme === LightMode && (
@@ -32,7 +34,7 @@ function SquareButton(props: {
 					id="DarkButton"
 					className={`${styles.darkButton}`}
 					onClick={props.onClick}
-					style={{ backgroundColor: "purple" }}>
+					style={{ backgroundColor: "var(--secondary-purple" }}>
 					<img
 						className={`${styles.icon}`}
 						src={github}
