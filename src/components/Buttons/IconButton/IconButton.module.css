@@ -1,0 +1,12 @@
+.button {
+    height: 48px;
+    width: 48px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: 3px solid;
+    transition: background-color 0.1s ease-in, outline-color 0.1s ease-in;
+    margin-right: 16px;
+    cursor: pointer;
+}

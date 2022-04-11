@@ -9,6 +9,7 @@
     font-family: var(--font-text);
     font-style: normal;
     color: var(--font-colour);
+    transition: color 0.1s ease-in;
 }
 
 .greeting {
@@ -26,7 +27,7 @@
     font-weight: 700;
     font-size: 96px;
     line-height: 5rem;
-    margin-top: 16px;
+    margin-top: 32px;
     margin-bottom: 0;
 }
 
@@ -34,11 +35,16 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 21px;
-    margin-top: 16px;
+    margin-top: 32px;
     margin-bottom: 0;
 }
 
 .linksWrapper {
-    margin-top: 16px;
+    margin-top: 32px;
     margin-bottom: 0;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
 }
