@@ -8,7 +8,7 @@ import { ProjectsButton } from "../../Buttons/ProjectsButton";
 
 const Landing = () => {
 	return (
-		<div className={`${styles.landing} ${styles.bounce}`}>
+		<div id={"landing"} className={`${styles.landing} ${styles.bounce}`}>
 			<p className={styles.greeting}>
 				<span className={styles.flare}>Hello!</span> my name is
 			</p>
