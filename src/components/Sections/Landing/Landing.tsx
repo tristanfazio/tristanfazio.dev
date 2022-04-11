@@ -3,12 +3,12 @@ import github from "./images/github.svg";
 import linkedin from "./images/linkedin.svg";
 import email from "./images/email.svg";
 import cv from "./images/cv.svg";
-import { IconButton } from "../Buttons/IconButton";
-import { ProjectsButton } from "../Buttons/ProjectsButton";
+import { IconButton } from "../../Buttons/IconButton";
+import { ProjectsButton } from "../../Buttons/ProjectsButton";
 
 const Landing = () => {
 	return (
-		<div className={styles.landing}>
+		<div className={`${styles.landing} ${styles.bounce}`}>
 			<p className={styles.greeting}>
 				<span className={styles.flare}>Hello!</span> my name is
 			</p>

@@ -1,0 +1,10 @@
+.projects {
+    width: 100%;
+    min-height: calc(100vh - 104px);
+    height: fit-content;
+    color: var(--font-colour);
+}
+
+.flare {
+    color: var(--primary-green);
+}

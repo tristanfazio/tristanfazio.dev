@@ -1,5 +1,5 @@
 import styles from "./ProjectsButton.module.css";
-import downArrow from "../../Landing/images/downarrrow.svg";
+import downArrow from "../../Sections/Landing/images/downarrrow.svg";
 import { CSSProperties, useContext } from "react";
 import { ThemeContext } from "../../../context/context";
 import { LightMode } from "../../../themes/LightMode";

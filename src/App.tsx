@@ -1,10 +1,11 @@
-import "./App.css";
+import styles from "./App.module.css";
 import { Header } from "./components/Header";
 import { LightMode } from "./themes/LightMode";
 import { useTheme } from "./hooks/useTheme";
-import { Landing } from "./components/Landing";
+import { Landing } from "./components/Sections/Landing";
 import { useState } from "react";
 import { ThemeContext } from "./context/context";
+import { Projects } from "./components/Sections/Projects";
 
 function App() {
 	const [theme, setTheme] = useState(LightMode);
@@ -12,13 +13,15 @@ function App() {
 
 	return (
 		<ThemeContext.Provider value={{ theme, setTheme }}>
-			<div className="App">
+			<div className={styles.app}>
+				<div className={styles.bodyWrapper}>
+					<Landing />
+					<Projects />
+					{/*<Skills/>*/}
+					{/*<About/>*/}
+					{/*<Contact/>*/}
+				</div>
 				<Header />
-				<Landing />
-				{/*<Projects/>*/}
-				{/*<Skills/>*/}
-				{/*<About/>*/}
-				{/*<Contact/>*/}
 			</div>
 		</ThemeContext.Provider>
 	);
