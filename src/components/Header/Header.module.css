@@ -50,6 +50,7 @@
 .navButtons li {
     margin-right: 16px;
     cursor: pointer;
+    transition: color 0.1s ease-in;
 }
 
 .navButtons li:nth-child(1) span:first-child {
