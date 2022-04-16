@@ -1,35 +1,42 @@
 :root {
-  --page-background-dark: #282A36;
-  --page-background-light: #FAFAFA;
-  --header-background-dark: #3A3D4F;
+    --page-background-dark: #282A36;
+    --page-background-light: #FAFAFA;
+    --header-background-dark: #3A3D4F;
 
-  --primary-green: #69CFBB;
-  --secondary-purple: #9C9BF4;
-  --error-orange: #F89C65;
-  --alert-red: #F66979;
-  --impact-yellow: #FAD02F;
-  --cool-blue: #5D8BE2;
+    --primary-green: #69CFBB;
+    --secondary-purple: #9C9BF4;
+    --error-orange: #F89C65;
+    --alert-red: #F66979;
+    --impact-yellow: #FAD02F;
+    --cool-blue: #5D8BE2;
 
-  --font-body-dark: #D4D4D4;
-  --font-body-light: #3A3D4F;
+    --font-body-dark: #D4D4D4;
+    --font-body-light: #3A3D4F;
 
-  --font-text: 'IBM Plex Sans', sans-serif;
-  --font-numerical: 'JetBrains Mono', monospace;
+    --font-text: 'IBM Plex Sans', sans-serif;
+    --font-numerical: 'JetBrains Mono', monospace;
 
-  /* initial variables as light theme*/
-  --page-background-colour: var(--page-background-light);
+    /* initial variables as light theme*/
+    --page-background-colour: var(--page-background-light);
 
-  --header-background-colour: var(--page-background-light);
-  --header-border-shadow: 0px -4px 20px rgba(0, 0, 0, 0.25);
+    --header-background-colour: var(--page-background-light);
+    --header-border-shadow: 0px -4px 20px rgba(0, 0, 0, 0.25);
 
-  --toggle-border-colour: var(--header-background-dark);
-  --toggle-slider-colour: var(--primary-green);
+    --toggle-border-colour: var(--header-background-dark);
+    --toggle-slider-colour: var(--primary-green);
 
-  --font-colour: var(--font-body-light);
+    --font-colour: var(--font-body-light);
+
+    --card-background-colour: #F3F3F2;
+    --card-header-colour: #E6E6E5;
 }
 
 body {
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    transition: background-color 0.2s ease-in, color 0.1s ease-in;
 }

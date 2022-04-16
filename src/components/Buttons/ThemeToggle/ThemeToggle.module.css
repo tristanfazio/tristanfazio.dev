@@ -23,7 +23,7 @@
     border-radius: 32px;
     position: absolute;
     left: 0;
-    transition: left 0.09s ease-in;
+    transition: left 0.1s ease-in;
 }
 
 .toggle:checked::after {

@@ -1,0 +1,87 @@
+.projectCard {
+    display: flex;
+    padding: 32px;
+    background-color: var(--card-background-colour);
+    border-radius: 8px;
+    margin-bottom: 64px;
+}
+
+.projectImage {
+    flex-grow: 1;
+    border-radius: 8px;
+    height: 300px;
+    width: 500px;
+}
+
+.projectDetails {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 32px;
+}
+
+.projectTitle {
+    font-family: var(--font-text);
+    color: var(--font-colour);
+    margin: 0;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tag {
+    margin-right: 8px;
+    background-color: var(--card-header-colour);
+    color: var(--font-colour);
+    border-radius: 8px;
+    padding: 4px;
+    font-weight: 400;
+    font-family: var(--font-numerical);
+    font-size: small;
+}
+
+.description {
+    font-family: var(--font-text);
+    color: var(--font-colour);
+}
+
+.buttonsWrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-green);
+    border-radius: 8px;
+    padding: 8px;
+    border: 0;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.button:hover {
+    transform: scale(110%);
+}
+
+.button p {
+    font-family: var(--font-text);
+    color: var(--font-body-light);
+    margin: 0;
+    font-weight: 600;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}

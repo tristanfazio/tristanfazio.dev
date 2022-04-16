@@ -10,4 +10,7 @@ export const LightMode: Theme = {
 	"toggle-slider-colour": "var(--primary-green)",
 
 	"font-colour": "var(--font-body-light)",
+
+	"card-background-colour": "#F3F3F2",
+	"card-header-colour": "#E6E6E5",
 };

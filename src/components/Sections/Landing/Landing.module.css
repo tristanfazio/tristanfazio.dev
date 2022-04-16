@@ -8,7 +8,6 @@
     font-family: var(--font-text);
     font-style: normal;
     color: var(--font-colour);
-    transition: color 0.1s ease-in;
 }
 
 .greeting {

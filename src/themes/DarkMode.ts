@@ -10,4 +10,7 @@ export const DarkMode: Theme = {
 	"toggle-slider-colour": "#50546D",
 
 	"font-colour": "var(--font-body-dark)",
+
+	"card-background-colour": "#3A3D4F",
+	"card-header-colour": "#50546D",
 };

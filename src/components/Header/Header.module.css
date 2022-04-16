@@ -16,7 +16,6 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    transition: background-color 0.1s ease-in;
 }
 
 .logoWrapper {
@@ -49,7 +48,6 @@
     pointer-events: auto;
     margin-right: 16px;
     cursor: pointer;
-    transition: color 0.1s ease-in;
     text-decoration: none;
     color: var(--font-colour);
 
@@ -57,7 +55,6 @@
 
 .navButtons li:hover {
     transform: scale(110%);
-    transition: transform 0.1s ease-in;
 }
 
 .navButtons li:nth-child(1) a span:first-child {
