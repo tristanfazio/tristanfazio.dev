@@ -6,6 +6,7 @@ import { Landing } from "./components/Sections/Landing";
 import { useState } from "react";
 import { ThemeContext } from "./context/context";
 import { Projects } from "./components/Sections/Projects";
+import { About } from "./components/Sections/About";
 
 function App() {
 	const [theme, setTheme] = useState(LightMode);
@@ -17,8 +18,7 @@ function App() {
 				<div className={styles.bodyWrapper}>
 					<Landing />
 					<Projects />
-					{/*<Skills/>*/}
-					{/*<About/>*/}
+					<About />
 					{/*<Contact/>*/}
 				</div>
 				<Header />

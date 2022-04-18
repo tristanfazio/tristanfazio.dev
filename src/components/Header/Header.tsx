@@ -19,20 +19,14 @@ const Header = () => {
 						</a>
 					</li>
 					<li>
-						<a href={"#skills"} className={styles.navLink}>
-							<span className={styles.navNumber}>2.</span>
-							<span>Skills</span>
-						</a>
-					</li>
-					<li>
 						<a href={"#about"} className={styles.navLink}>
-							<span className={styles.navNumber}>3.</span>
+							<span className={styles.navNumber}>2.</span>
 							<span>About</span>
 						</a>
 					</li>
 					<li>
 						<a href={"#contact"} className={styles.navLink}>
-							<span className={styles.navNumber}>4.</span>
+							<span className={styles.navNumber}>3.</span>
 							<span>Contact</span>
 						</a>
 					</li>

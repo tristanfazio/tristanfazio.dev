@@ -38,5 +38,6 @@ body {
 }
 
 * {
+    scroll-padding-top: calc(72px + 64px);
     transition: background-color 0.2s ease-in, color 0.1s ease-in;
 }

@@ -1,6 +1,6 @@
 .projects {
     width: 100%;
-    min-height: calc(100vh - 104px);
+    min-height: calc(100vh);
     height: fit-content;
     color: var(--font-colour);
     font-family: var(--font-text);

@@ -58,19 +58,15 @@
 }
 
 .navButtons li:nth-child(1) a span:first-child {
-    color: var(--secondary-purple);
+    color: var(--primary-green);
 }
 
 .navButtons li:nth-child(2) span:first-child {
-    color: var(--cool-blue);
+    color: var(--primary-green);
 }
 
 .navButtons li:nth-child(3) span:first-child {
-    color: var(--error-orange);
-}
-
-.navButtons li:nth-child(4) span:first-child {
-    color: var(--alert-red);
+    color: var(--primary-green);
 }
 
 .navNumber {
