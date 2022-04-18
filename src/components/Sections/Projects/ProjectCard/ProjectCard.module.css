@@ -6,21 +6,30 @@
     margin-bottom: 64px;
 }
 
+.projectImageWrapper {
+    flex: 1;
+    margin-right: 16px;
+}
+
 .projectImage {
-    flex-grow: 1;
     border-radius: 8px;
-    height: 300px;
-    width: 500px;
+    height: 100%;
+    width: 100%;
 }
 
 .projectDetails {
-    flex-grow: 1;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 16px;
+}
+
+.projectHeaderDetails {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding-left: 32px;
 }
 
 .projectTitle {
@@ -30,9 +39,11 @@
 }
 
 .tags {
+    justify-self: flex-start;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 16px;
 }
 
 .tag {
@@ -49,11 +60,16 @@
 .description {
     font-family: var(--font-text);
     color: var(--font-colour);
+    max-width: 80%;
+    display: flex;
+    align-self: center;
+    text-align: center;
+    white-space: pre-line;
 }
 
 .buttonsWrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 

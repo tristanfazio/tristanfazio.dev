@@ -18,7 +18,7 @@ const Projects = () => {
 					liveLink={"https://typeracer-clone-client.fazio.dev"}
 					tags={["Typescript", "React", "Redux", "S3"]}
 					description={
-						"An attempt at cloning TypeRacer, with my own stylized spin. Aiming to improve on the idea by making it multiplayer over websockets. Type famous quotes and improve on your score."
+						"Practice your typing accuracy, improve your words per minute, and race your friends in Terminal Type! \n\n A TypeRacer clone, with my own stylized spin. Aiming to improve on the idea by making it multiplayer over websockets.\n\n Client is stored in S3 and served via CloudFront. Quote API and multiplayer websockets are a WIP."
 					}
 				/>
 			</div>

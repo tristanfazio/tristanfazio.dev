@@ -12,17 +12,23 @@ const ProjectCard = (props: {
 }) => {
 	return (
 		<div className={styles.projectCard}>
-			<img
-				className={styles.projectImage}
-				src={props.imageUrl}
-				alt={"image"}
-			/>
+			<div className={styles.projectImageWrapper}>
+				<img
+					className={styles.projectImage}
+					src={props.imageUrl}
+					alt={"image"}
+				/>
+			</div>
 			<div className={styles.projectDetails}>
-				<h2 className={styles.projectTitle}>{props.projectTitle}</h2>
-				<div className={styles.tags}>
-					{props.tags?.map((tag) => (
-						<Tag tag={tag} />
-					))}
+				<div className={styles.projectHeaderDetails}>
+					<h2 className={styles.projectTitle}>
+						{props.projectTitle}
+					</h2>
+					<div className={styles.tags}>
+						{props.tags?.map((tag) => (
+							<Tag tag={tag} />
+						))}
+					</div>
 				</div>
 				<div className={styles.description}>{props.description}</div>
 				<div className={styles.buttonsWrapper}>
