@@ -82,23 +82,45 @@ const About = () => {
 				<div className={styles.skills}>
 					<h2>Skills</h2>
 					<div className={styles.skillsWrapper}>
-						<div className={styles.frontEnd}>
+						<div className={styles.skillsList}>
 							<div className={styles.sectionHeader}>
-								{brush} <h3>Front End</h3>
+								<h3>Front End</h3> {brush}
 							</div>
-							<ul></ul>
+							<ul>
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>Javascript</li>
+								<li>TypeScript</li>
+								<li>React</li>
+								<li>Redux</li>
+							</ul>
 						</div>
-						<div className={styles.backEnd}>
+						<div className={styles.skillsList}>
 							<div className={styles.sectionHeader}>
-								{gears} <h3>Back End</h3>
+								<h3>Back End</h3> {gears}
 							</div>
-							<ul></ul>
+							<ul>
+								<li>Java</li>
+								<li>Spark API Framework</li>
+								<li>Kotlin</li>
+								<li>Ktor</li>
+								<li>Python</li>
+								<li>Nodejs/Typescript</li>
+								<li>SQL</li>
+							</ul>
 						</div>
-						<div className={styles.infra}>
+						<div className={styles.skillsList}>
 							<div className={styles.sectionHeader}>
-								{server} <h3>Infra</h3>
+								<h3>Infra</h3> {server}
 							</div>
-							<ul></ul>
+							<ul>
+								<li>Docker</li>
+								<li>Terraform</li>
+								<li>S3</li>
+								<li>ECS</li>
+								<li>EC2</li>
+								<li>Amazon RDS</li>
+							</ul>
 						</div>
 					</div>
 				</div>

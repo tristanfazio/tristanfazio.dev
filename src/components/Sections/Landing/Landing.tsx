@@ -13,7 +13,10 @@ const Landing = () => {
 				<span className={styles.flare}>Hello!</span> my name is
 			</p>
 			<h1 className={styles.name}>Tristan Fazio</h1>
-			<p className={styles.description}>Full Stack Software Engineer </p>
+			<p className={styles.description}>
+				Full Stack Software Engineer - Currently creating scalable
+				solutions at VGW
+			</p>
 			<div className={styles.linksWrapper}>
 				<IconButton
 					onClick={() =>
