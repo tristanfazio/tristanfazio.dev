@@ -1,0 +1,68 @@
+.contact {
+    min-height: calc(100vh - 144px);
+    height: fit-content;
+    color: var(--font-colour);
+    font-family: var(--font-text);
+}
+
+.flare {
+    color: var(--primary-green);
+    font-family: var(--font-numerical);
+}
+
+.sectionWrapper {
+    display: flex;
+    margin: auto;
+    background-color: var(--card-background-colour);
+    border-radius: 8px;
+    padding: 32px;
+}
+
+.buttonWrapper {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: var(--primary-green);
+    border-radius: 8px;
+    font-size: x-large;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.button > p {
+    flex: 2;
+    color: var(--font-body-light);
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: var(--font-text);
+    font-size: x-large;
+}
+
+.imageWrapper {
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+}
+
+.imageWrapper > svg {
+    height: 100%;
+    width: 100%;
+    fill: var(--font-body-light);
+    stroke-width: 0;
+}

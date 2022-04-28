@@ -7,6 +7,7 @@ import { useState } from "react";
 import { ThemeContext } from "./context/context";
 import { Projects } from "./components/Sections/Projects";
 import { About } from "./components/Sections/About";
+import Contact from "./components/Sections/Contact/Contact";
 
 function App() {
 	const [theme, setTheme] = useState(LightMode);
@@ -19,7 +20,7 @@ function App() {
 					<Landing />
 					<Projects />
 					<About />
-					{/*<Contact/>*/}
+					<Contact />
 				</div>
 				<Header />
 			</div>
