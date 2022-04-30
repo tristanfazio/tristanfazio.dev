@@ -4,6 +4,7 @@
     height: fit-content;
     color: var(--font-colour);
     font-family: var(--font-text);
+    margin-top: 144px;
 }
 
 .flare {

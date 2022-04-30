@@ -33,6 +33,7 @@ const Contact = () => {
 						</div>
 					</div>
 				</div>
+				<p>Thanks for stopping by!</p>
 			</div>
 		</div>
 	);

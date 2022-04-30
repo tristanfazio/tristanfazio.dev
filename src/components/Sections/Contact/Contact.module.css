@@ -3,6 +3,7 @@
     height: fit-content;
     color: var(--font-colour);
     font-family: var(--font-text);
+    margin-top: 144px;
 }
 
 .flare {
@@ -12,17 +13,21 @@
 
 .sectionWrapper {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: auto;
-    background-color: var(--card-background-colour);
-    border-radius: 8px;
+    /*background-color: var(--card-background-colour);*/
+    /*border-radius: 8px;*/
     padding: 32px;
 }
 
 .buttonWrapper {
+    margin: 32px;
     flex: 1;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
+    max-height: 600px;
 }
 
 .button {
@@ -31,22 +36,25 @@
     justify-content: center;
     cursor: pointer;
     background-color: var(--primary-green);
-    border-radius: 8px;
+    border-radius: 16px;
     font-size: x-large;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding: 32px;
 }
 
 .button > p {
     flex: 2;
     color: var(--font-body-light);
+    text-align: center;
+    margin: 0;
+    width: fit-content;
 }
 
 .content {
+    margin-right: 16px;
     flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     font-family: var(--font-text);
     font-size: x-large;
@@ -61,8 +69,8 @@
 }
 
 .imageWrapper > svg {
-    height: 100%;
-    width: 100%;
+    height: 75%;
+    width: 75%;
     fill: var(--font-body-light);
     stroke-width: 0;
 }
