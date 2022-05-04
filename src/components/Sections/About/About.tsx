@@ -29,86 +29,116 @@ const About = () => {
 	return (
 		<div id={"about"} className={styles.about}>
 			<h1>
-				<span className={styles.flare}>2.</span> About
+				<span className={`${styles.flare} ${styles.number}`}>2.</span>{" "}
+				About Me
 			</h1>
 			<div className={styles.contentGrid}>
 				<div className={styles.aboutMe}>
-					<p></p>
+					<h2>Me in a nutshell</h2>
+					<p>
+						Hi I'm Tristan and I love working on web apps. I've
+						always been drawn to coding. Starting with niche
+						interests like butchering custom MySpace layouts to
+						tinkering with game mods, tackling a problem was always
+						satisfying.
+					</p>
+					<p>
+						Currently I am working at VGW, getting to{" "}
+						<span className={styles.strikeThrough}>butcher</span>{" "}
+						<span className={styles.flare}>
+							create scalable systems
+						</span>{" "}
+						to support a live product, used by tens of thousands of
+						players every day.
+					</p>
+					<p>
+						My favourite part of being a Software Engineer, is
+						getting to discover solutions across the entire stack.
+						From creating interactive UI's to tackling complex
+						backend domain logic.{" "}
+						<span className={styles.flare}>
+							Every system is just a puzzle waiting to be
+							connected.
+						</span>
+					</p>
 				</div>
-				<div className={styles.education}>
-					<h2>Education</h2>
-					<ul>
-						<li>
-							{hat}
-							<p>
-								Bachelor of Science, Computer Science, Mj.
-								Software Engineering
-							</p>
-						</li>
-						<li>
-							{hat}
-							<p>
-								Bachelor of Science, Geographic Information
-								Sciences
-							</p>
-						</li>
-					</ul>
+				<div className={styles.careerHighlights}>
+					<h2>Some Career Highlights</h2>
 				</div>
-				<div className={styles.certs}>
-					<h2>Certificates</h2>
-					<ul>
-						<li>
-							{stamp}
-							<p>AWS Certified Developer – Associate</p>
-						</li>
-						<li>
-							{stamp}
-							<p>AWS Certified Solutions Architect – Associate</p>
-						</li>
-					</ul>
-				</div>
-				<div className={styles.skills}>
-					<h2>Skills</h2>
-					<div className={styles.skillsWrapper}>
-						<div className={styles.skillsList}>
-							<div className={styles.sectionHeader}>
-								<h3>Front End</h3> {brush}
-							</div>
+				<div className={styles.dotPointArea}>
+					<div>
+						<div className={styles.education}>
+							<h2>Things I've achieved</h2>
 							<ul>
-								<li>HTML</li>
-								<li>CSS</li>
-								<li>Javascript</li>
-								<li>TypeScript</li>
-								<li>React</li>
-								<li>Redux</li>
+								<li>
+									{hat}
+									<p>
+										Bachelor of Science, Computer Science,
+										Mj. Software Engineering
+									</p>
+								</li>
+								<li>
+									{hat}
+									<p>
+										Bachelor of Science, Geographic
+										Information Sciences
+									</p>
+								</li>
+								<li>
+									{stamp}
+									<p>AWS Certified Developer – Associate</p>
+								</li>
+								<li>
+									{stamp}
+									<p>
+										AWS Certified Solutions Architect –
+										Associate
+									</p>
+								</li>
 							</ul>
 						</div>
-						<div className={styles.skillsList}>
-							<div className={styles.sectionHeader}>
-								<h3>Back End</h3> {gears}
+						<div className={styles.skills}>
+							<h2>Things I use</h2>
+							<div className={styles.skillsWrapper}>
+								<div className={styles.skillsList}>
+									<div className={styles.sectionHeader}>
+										{brush} <h3>Front End</h3>
+									</div>
+									<ul>
+										<li>HTML,</li>
+										<li>CSS,</li>
+										<li>Javascript,</li>
+										<li>TypeScript,</li>
+										<li>React,</li>
+										<li>Redux</li>
+									</ul>
+								</div>
+								<div className={styles.skillsList}>
+									<div className={styles.sectionHeader}>
+										{gears} <h3>Back End</h3>
+									</div>
+									<ul>
+										<li>Java,</li>
+										<li>Kotlin,</li>
+										<li>Python,</li>
+										<li>Nodejs,</li>
+										<li>SQL</li>
+									</ul>
+								</div>
+								<div className={styles.skillsList}>
+									<div className={styles.sectionHeader}>
+										{server} <h3>Infra</h3>
+									</div>
+									<ul>
+										<li>Docker,</li>
+										<li>Terraform,</li>
+										<li>S3,</li>
+										<li>ECS,</li>
+										<li>EC2,</li>
+										<li>Amazon RDS</li>
+									</ul>
+								</div>
 							</div>
-							<ul>
-								<li>Java</li>
-								<li>Spark API Framework</li>
-								<li>Kotlin</li>
-								<li>Ktor</li>
-								<li>Python</li>
-								<li>Nodejs/Typescript</li>
-								<li>SQL</li>
-							</ul>
-						</div>
-						<div className={styles.skillsList}>
-							<div className={styles.sectionHeader}>
-								<h3>Infra</h3> {server}
-							</div>
-							<ul>
-								<li>Docker</li>
-								<li>Terraform</li>
-								<li>S3</li>
-								<li>ECS</li>
-								<li>EC2</li>
-								<li>Amazon RDS</li>
-							</ul>
 						</div>
 					</div>
 				</div>

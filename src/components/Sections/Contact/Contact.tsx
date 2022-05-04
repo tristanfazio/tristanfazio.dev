@@ -33,7 +33,10 @@ const Contact = () => {
 						</div>
 					</div>
 				</div>
-				<p>Thanks for stopping by!</p>
+				<p>
+					<span className={styles.flare}>Thanks</span> for stopping
+					by!
+				</p>
 			</div>
 		</div>
 	);

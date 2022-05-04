@@ -9,6 +9,9 @@
 
 .flare {
     color: var(--primary-green);
+}
+
+.number {
     font-family: var(--font-numerical);
 }
 
@@ -18,62 +21,58 @@
     grid-template-rows: 0.5fr repeat(2, 1fr);
     grid-column-gap: 3em;
     grid-row-gap: 3em;
-
     height: 100%;
     box-sizing: border-box;
 }
 
 .aboutMe {
-    grid-area: 1 / 1 / 2 / 3;
-    display: flex;
-    background-color: var(--card-background-colour);
-    padding: 32px;
+    grid-area: 1 / 1 / 2 / 2;
+    display: block;
+    flex-direction: column;
     border-radius: 8px;
+    max-width: 800px;
+    padding-left: 3rem;
+}
+
+.strikeThrough {
+    text-decoration: line-through;
+    color: var(--font-colour);
 }
 
 .aboutMe > p {
-    padding: 0;
-    margin: 0;
     color: var(--font-colour);
     font-family: var(--font-text);
     font-weight: 500;
 }
 
-.education {
-    grid-area: 2 / 1 / 3 / 2;
+.dotPointArea {
+    grid-area: 1 / 2 / 4 / 3;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    color: var(--font-colour);
-    background-color: var(--card-background-colour);
-    padding: 32px;
-    border-radius: 8px;
+    align-items: flex-end;
+    width: 100%;
 }
 
-.certs {
-    grid-area: 2 / 2 / 3 / 3;
+.education {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     color: var(--font-colour);
-    background-color: var(--card-background-colour);
-    padding: 32px;
     border-radius: 8px;
+    margin-top: 1em;
 }
 
 .skills {
-    grid-area: 3 / 1 / 4 / 3;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     color: var(--font-colour);
-    background-color: var(--card-background-colour);
-    padding: 32px;
     border-radius: 8px;
 }
 
 .skillsWrapper {
     display: flex;
+    flex-direction: column;
     width: 100%;
     justify-content: space-around;
     align-items: stretch;
@@ -83,11 +82,10 @@
 .contentGrid svg {
     height: 24px;
     width: 24px;
-    margin: 8px;
     fill: var(--secondary-purple);
 }
 
-.contentGrid > div > ul {
+.contentGrid ul {
     list-style-type: none;
     padding: 0;
     display: flex;
@@ -98,9 +96,14 @@
 .contentGrid ul li {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     color: var(--font-colour);
     font-family: var(--font-text);
+}
+
+.education > ul > li > p {
+    margin-left: 8px;
+    font-family: var(--font-numerical);
 }
 
 .sectionHeader {
@@ -111,14 +114,20 @@
     font-family: var(--font-numerical);
 }
 
+.sectionHeader h3 {
+    margin-left: 8px;
+}
+
 .skillsList {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-top: 1em;
 }
 
 .skillsList > ul {
+    flex-direction: row;
     padding: 0;
 }
 
@@ -129,6 +138,12 @@
     align-items: flex-start;
     color: var(--font-colour);
     font-family: var(--font-numerical);
+    margin-right: 8px;
+}
+
+.careerHighlights {
+    grid-area: 2 / 1 / 3 / 2;
+    padding-left: 3rem;
 }
 
 

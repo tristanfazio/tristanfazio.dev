@@ -15,11 +15,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: auto;
-    /*background-color: var(--card-background-colour);*/
-    /*border-radius: 8px;*/
+    margin-top: 10rem;
     padding: 32px;
 }
+
+.sectionWrapper > p {
+    color: var(--font-colour);
+    margin: 0;
+}
+
 
 .buttonWrapper {
     margin: 32px;
@@ -37,8 +41,15 @@
     cursor: pointer;
     background-color: var(--primary-green);
     border-radius: 16px;
-    font-size: x-large;
-    padding: 32px;
+    padding: 16px;
+    height: 48px;
+    width: 240px;
+    color: var(--header-background-dark);
+    font-family: var(--font-text);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
 }
 
 .button > p {
@@ -55,10 +66,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     font-family: var(--font-text);
     font-size: x-large;
 }
+
+.content > p {
+    margin: 0;
+    color: var(--font-colour);
+}
+
 
 .imageWrapper {
     flex: 0.5;
