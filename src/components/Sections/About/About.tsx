@@ -72,9 +72,26 @@ const About = () => {
 				<div className={styles.careerHighlights}>
 					<h2>Some career highlights</h2>
 					<ul>
-						<li>{chevron}</li>
-						<li>{chevron}</li>
-						<li>{chevron}</li>
+						<li>
+							<p>
+								Lead a technical team in the system design and
+								implementation of a high uptime game feature
+								named “Amplifier”, that increased player
+								engagement. Utilising cloud resources, and
+								server-side caching, admin users can now make
+								near real-time changes to the amplified bonuses
+								players receive during play.
+							</p>
+						</li>
+						<li>
+							<p>
+								Key influence in the architecture and
+								implementation of a scalable, event sourced
+								Daily Challenges system that can serve auditable
+								and reportable challenges to thousands of
+								players.
+							</p>
+						</li>
 					</ul>
 				</div>
 				<div className={styles.dotPointArea}>
@@ -83,25 +100,25 @@ const About = () => {
 							<h2>Things I've achieved</h2>
 							<ul>
 								<li>
-									{hat}
+									{chevron}
 									<p>
 										Bachelor of Science, Computer Science,
 										Mj. Software Engineering
 									</p>
 								</li>
 								<li>
-									{hat}
+									{chevron}
 									<p>
 										Bachelor of Science, Geographic
 										Information Sciences
 									</p>
 								</li>
 								<li>
-									{stamp}
+									{chevron}
 									<p>AWS Certified Developer – Associate</p>
 								</li>
 								<li>
-									{stamp}
+									{chevron}
 									<p>
 										AWS Certified Solutions Architect –
 										Associate
@@ -114,7 +131,7 @@ const About = () => {
 							<div className={styles.skillsWrapper}>
 								<div className={styles.skillsList}>
 									<div className={styles.sectionHeader}>
-										{brush} <h3>Front End</h3>
+										{chevron} <h3>Front End</h3>
 									</div>
 									<ul>
 										<li>HTML,</li>
@@ -127,7 +144,7 @@ const About = () => {
 								</div>
 								<div className={styles.skillsList}>
 									<div className={styles.sectionHeader}>
-										{gears} <h3>Back End</h3>
+										{chevron} <h3>Back End</h3>
 									</div>
 									<ul>
 										<li>Java,</li>
@@ -139,7 +156,7 @@ const About = () => {
 								</div>
 								<div className={styles.skillsList}>
 									<div className={styles.sectionHeader}>
-										{server} <h3>Infra</h3>
+										{chevron} <h3>Infra</h3>
 									</div>
 									<ul>
 										<li>Docker,</li>

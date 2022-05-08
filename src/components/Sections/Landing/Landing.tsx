@@ -53,7 +53,10 @@ const Landing = () => {
 				/>
 				<IconButton
 					onClick={() =>
-						window.open("http://www.google.com", "_blank")
+						window.open(
+							"https://drive.google.com/file/d/1yI0D4aXXUAJu0PItfneBe-Axk4AzZ6qA/view?usp=sharing",
+							"_blank",
+						)
 					}
 					icon={cv}
 					colour={"var(--alert-red)"}
